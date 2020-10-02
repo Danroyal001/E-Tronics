@@ -87,3 +87,8 @@
     .navbar-toggler{
       outline-color: var(--primary) !important;
     }
+
+    .rounded-lg{
+      border-radius: 10px !important;
+      overflow: hidden !important;
+    }
