@@ -1,12 +1,10 @@
-// window.submit = (e) => {
-//     e.preventDefault()
-//     const name = $('name=name').val();
-//     const email = $('name=email').val();
-//     const subject = $('name=subject').val();
-//     const number = $('name=number').val();
-//     const message = $('name=message').val();
-//     window.open().location = `mailto:e-tronics@gmail.com/?from=${email}&subject=${subject}&message=${name} \n ${email} \n ${number} \n ${message}`;
-// }
+
+
+AOS.init({
+    offset: 200,
+    easing: 'ease-in-sine',
+    delay: 100,
+  });
 
 document.querySelector("form").addEventListener("submit", (e) => {
     e.preventDefault();
