@@ -1,9 +1,9 @@
-@font-face{
+/* @font-face{
   font-family: 'Polya';
   src: url(../polya-font/font/POLYA.otf);
   font-style: normal;
   font-weight: 700;
-}
+} */
 
 *{
     transition: 1s all !important;
@@ -16,7 +16,7 @@
 }
 
 .polya{
-  font-family: 'Polya' !important;
+ font-family: 'Nunito', sans-serif;;
 }
 
 /* html, body{
@@ -28,7 +28,7 @@
         width: 14px !important;
         /* border-radius: 34px !important; */
     }
-    
+
     /* Track */
     ::-webkit-scrollbar-track {
         background: #000 !important;
@@ -36,7 +36,7 @@
         border-left: thin solid #fff !important;
         content: icon !important;
     }
-    
+
     /* Handle */
     ::-webkit-scrollbar-thumb {
         background: var(--primary) !important;
@@ -45,14 +45,14 @@
         width: 20px !important;
         border: thin solid #fff !important;
     }
-    
+
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
         border: none !important;
         /* box-shadow: -3px 0px 5px 5px !important; */
         cursor: pointer !important;
     }
-    
+
     ::-webkit-scrollbar-button{
       color: #fff !important;
       width: 100% !important;
@@ -60,7 +60,7 @@
       border: thin solid #fff !important;
       height: 12px !important;
     }
-    
+
     /* ::-webkit-file-upload-button{
       background-color: var(--primary);
       color: #fff;
